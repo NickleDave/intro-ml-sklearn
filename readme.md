@@ -14,6 +14,10 @@ to set up for the tutorial, do the following:
     `$ conda create -n intro-ml-sklearn python=3.5 scikit-learn=0.18.1 jupyter=1.0.0 matplotlib=2.0.0`
  
  * when it asks you if it's okay to install required packages, say `y`
+ 
+3. At the tutorial you will want to `activate` this environement by executing the following at the command line:
+  * Windows: `> activate intro-ml-sklearn` (or whatever you named the environment)
+  * Mac OS / Linux: `$ source activate intro-ml-sklearn`
 
 ----------------------------------------------------------------------
 
