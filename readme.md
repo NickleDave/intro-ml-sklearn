@@ -11,7 +11,7 @@ to set up for the tutorial, do the following:
 2. create a conda environment for the tutorial; to make sure my code will work on your computer
  * open a terminal and at the command line, type:
   
-    $ conda create -n intro-ml-sklearn python=3.5 scikit-learn=0.18.1 jupyter=1.0.0 matplotlib=2.0.0`seaborn=0.7.1
+    `$ conda create -n intro-ml-sklearn python=3.5 scikit-learn=0.18.1 jupyter=1.0.0 matplotlib=2.0.0`seaborn=0.7.1`
  
  * when it asks you if it's okay to install required packages, say `y`
  
