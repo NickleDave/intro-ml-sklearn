@@ -28,13 +28,16 @@ def plot_svm_separator():
     yy_up = a * xx + (b[1] - a * b[0])
 
     # plot the line, the points, and the nearest vectors to the plane
+    plt.figure(figsize=(7.5,7.5))
     plt.plot(xx, yy, 'k-')
     plt.plot(xx, yy_down, 'k--')
     plt.plot(xx, yy_up, 'k--')
     plt.scatter(clf.support_vectors_[:, 0], clf.support_vectors_[: ,1],
-                s=80, facecolors='none')
-    plt.scatter(X[:, 0], X[:, 1], c=Y, cmap=plt.cm.Paired)
+                s=320, facecolors='none')
+    plt.scatter(X[:, 0], X[:, 1], c=Y, cmap=plt.cm.Paired, s=180)
     plt.axis('tight')
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
 
 if __name__ == '__main__':
     plot_svm_separator()
