@@ -33,7 +33,7 @@ def plot_svm_separator():
     plt.plot(xx, yy_down, 'k--')
     plt.plot(xx, yy_up, 'k--')
     plt.scatter(clf.support_vectors_[:, 0], clf.support_vectors_[: ,1],
-                s=320, facecolors='none')
+                s=320, c="none", linewidths=1, edgecolors='k' )
     plt.scatter(X[:, 0], X[:, 1], c=Y, cmap=plt.cm.Paired, s=180)
     plt.axis('tight')
     plt.xticks(fontsize=20)
